@@ -1,0 +1,2 @@
+#!/bin/bash
+export GRADLE_USER_HOME="$MY_JAVA_BASE/gradle"

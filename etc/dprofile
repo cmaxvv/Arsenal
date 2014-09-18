@@ -1,0 +1,32 @@
+#!/bin/bash
+echo "Starting loading my delvel envirement ... "
+
+curr_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+base="`dirname $curr_dir`"
+devel_base="$base/devel"
+etc_base="$base/etc"
+dprofile_base="$etc_base/dprofile.d"
+
+export MY_BASE="$base"
+export PATH="$MY_BASE/bin":$PATH
+export MY_DEVEL_BASE="$devel_base"
+export MY_ETC_BASE="$etc_base"
+export MY_PROJ_BASE="$base/projects"
+
+echo "MY_DEVEL_BASE = $MY_DEVEL_BASE"
+alias mydevel="cd $MY_DEVEL_BASE"
+alias myetc="cd $MY_ETC_BASE"
+alias myproj="cd $MY_PROJ_BASE"
+
+export MY_JAVA_BASE="$MY_DEVEL_BASE/java"
+alias myjava="cd $MY_JAVA_BASE"
+
+export MY_ANDROID_BASE="$MY_DEVEL_BASE/android"
+alias myandroid="cd $MY_ANDROID_BASE"
+
+filelist=`/bin/ls $dprofile_base`
+for file in $filelist
+	do 
+		echo "loading $dprofile_base/$file"
+		. $dprofile_base/$file 
+done
