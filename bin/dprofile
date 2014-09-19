@@ -2,6 +2,9 @@
 enable_dprofile() {
 	echo "enable dprofile $1 for $2";
 	link_from="$MY_ETC_BASE/dprofile.avaliable/$1"
+	if [ ! -d "$MY_ETC_BASE/dprofile.d/" ]; then
+		mkdir "$MY_ETC_BASE/dprofile.d/"
+	fi
 	if [ ! -f "$link_from" ]; then
 		echo "can not find profile: $link_from"
 		exit
