@@ -1,4 +1,0 @@
-dprofile
-========
-
-My Devel Profile
