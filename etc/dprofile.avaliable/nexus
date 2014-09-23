@@ -1,5 +1,5 @@
 #!/bin/bash
 export NEXUS_HOME="$MY_JAVA_BASE/nexus/nexus-2.9.1-02"
 export PATH="$NEXUS_HOME/bin":$PATH
-export PLEXUS_NEXUS_WORK="$MY_JAVA_BASE/nexus/sonatype-work"
+export PLEXUS_NEXUS_WORK="$MY_JAVA_BASE/nexus/sonatype-work/nexus/"
 alias nexuslogtail="tail -f $PLEXUS_NEXUS_WORK/logs/* $NEXUS_HOME/logs/*"
