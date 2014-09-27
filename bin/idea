@@ -1,0 +1,3 @@
+#!/bin/bash
+. /data/etc/dprofile
+$MY_JAVA_BASE/idea/bin/idea.sh
