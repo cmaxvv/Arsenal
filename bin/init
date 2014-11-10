@@ -1,4 +1,7 @@
 #!/bin/bash
 . ../etc/dprofile.conf	
+#ln -s $MY_BASE/bin/dprofile /usr/local/bin/mydprofile 
 mkdir $MY_DEVEL_BASE
 mkdir $MY_PROJ_BASE
+ln -sf $MY_ETC_BASE/vimrc ~/.vimrc
+ln -sf $MY_ETC_BASE/screenrc ~/.screenrc

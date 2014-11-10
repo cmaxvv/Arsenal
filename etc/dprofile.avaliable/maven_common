@@ -1,0 +1,3 @@
+#!/bin/bash
+export M2_USER_HOME="$MY_JAVA_BASE/m2"
+export M2_OPTS=""

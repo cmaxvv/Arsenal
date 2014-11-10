@@ -1,0 +1,10 @@
+# 欢迎信息
+startup_message off
+# 闪屏
+vbell off
+# 滚屏最大行数
+defscrollback 5000
+
+#状态栏
+hardstatus alwayslastline
+hardstatus string '%{= mY}%-Lw%{= KW}%50>%n%f* %t%{= mY}%+Lw%< %{= kG}%-=%Y/%m/%d %c:%s %{Y}@ %{C}%H %{-}'

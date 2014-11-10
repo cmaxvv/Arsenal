@@ -1,0 +1,45 @@
+set nocompatible
+
+"{{{ Tab与空格
+set ts=4 "tab stop
+set sts=4 "soft tab stop
+set smarttab
+"}}}
+
+"{{{ 缩进
+set sw=4 "shift width
+set ai "auto indent
+set si "smart indent
+"}}}
+
+"{{{ 键盘鼠标
+set backspace=2
+set backspace=eol,start,indent
+set mouse=""
+"}}}
+
+"{{{ 文件编码与格式 
+set encoding=utf-8
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+set ffs=unix,dos,mac
+"}}}
+
+"{{{ 文件类型和语法高亮
+filetype on
+filetype plugin on
+syntax on
+au BufNewFile,BufRead *.tpl :set ft=php
+au BufNewFile,BufRead *.html :set ft=php
+"}}}
+
+"{{{ 编辑器视觉效果
+"color desert
+"set cursorline
+"highlight CursorLine cterm=none ctermbg=6 ctermfg=0
+set ruler
+set number
+set wildmenu
+set foldmethod=marker
+set statusline=[%F]%y%r%m%*%=[Line:%l/%L,Column:%c][%p%%]   " 状态栏显示格式                 
+set laststatus=2    " always show the status line
+"}}}

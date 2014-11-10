@@ -1,4 +1,4 @@
 #!/bin/bash
-export GRADLE_USER_HOME="$MY_JAVA_BASE/gradle"
+export GRADLE_USER_HOME="$MY_JAVA_BASE/gradle_user_home"
 export GRADLE_OPTS=""
 export PATH="$GRADLE_HOME/bin":$PATH
