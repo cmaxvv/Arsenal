@@ -1,0 +1,3 @@
+#!/bin/bash
+export MY_ANDROID_BASE="$MY_DEVEL_BASE/android"
+alias myandroid="cd $MY_ANDROID_BASE"

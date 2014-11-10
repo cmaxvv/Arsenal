@@ -1,0 +1,3 @@
+#!/bin/bash
+export MY_JAVA_BASE="$MY_DEVEL_BASE/java"
+alias myjava="cd $MY_JAVA_BASE"

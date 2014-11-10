@@ -1,0 +1,4 @@
+#!/bin/bash
+. ../etc/dprofile.conf	
+mkdir $MY_DEVEL_BASE
+mkdir $MY_PROJ_BASE
