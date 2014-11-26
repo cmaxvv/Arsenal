@@ -1,0 +1,5 @@
+#!/bin/bash
+export ANDROID_SDK_HOME="$MY_ANDROID_BASE/android-sdk-linux" 
+export ANDROID_HOME="$ANDROID_SDK_HOME" 
+export PATH="$ANDROID_SDK_HOME/tools":$PATH
+alias myandroidsdk="cd $ANDROID_SDK_HOME"
