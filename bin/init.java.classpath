@@ -1,5 +1,5 @@
 #!/bin/bash
 . ../etc/dprofile.conf	
-./dprofile enable java_classpath 11java_classpath
+./dprofile enable java_classpath 10java_classpath
 . ../etc/dprofile.conf	
 mkdir $MY_JAVA_BASE

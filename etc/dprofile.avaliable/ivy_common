@@ -1,0 +1,3 @@
+#!/bin/bash
+export IVY_USER_HOME="$MY_JAVA_BASE/ivy2_user_home"
+export IVY_OPTS=""

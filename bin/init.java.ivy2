@@ -1,0 +1,7 @@
+#!/bin/bash
+. ../etc/dprofile.conf	
+#./dprofile enable maven_3.2.3 11maven
+./dprofile enable ivy_common 12ivy
+. ../etc/dprofile.conf	
+mkdir $IVY_USER_HOME
+ln -s $IVY_USER_HOME ~/.ivy2
