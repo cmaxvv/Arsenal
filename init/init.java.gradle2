@@ -1,7 +1,0 @@
-#!/bin/bash
-. ../etc/dprofile.conf	
-./dprofile enable gradle_2.2.1 11gradle
-./dprofile enable gradle_common 12gradle
-. ../etc/dprofile.conf	
-mkdir $GRADLE_USER_HOME
-ln -s $GRADLE_USER_HOME ~/.gradle

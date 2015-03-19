@@ -1,4 +1,0 @@
-#!/bin/bash
-. ../etc/dprofile.conf	
-./dprofile enable ant_1.9.4 11ant
-. ../etc/dprofile.conf	
