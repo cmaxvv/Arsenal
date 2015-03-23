@@ -7,3 +7,4 @@ mkdir $MY_SRC_BASE
 mkdir $MY_REPO_BASE
 ln -sf $MY_ETC_BASE/vimrc ~/.vimrc
 ln -sf $MY_ETC_BASE/screenrc ~/.screenrc
+ln -sf $MY_ETC_BASE/tmux.conf ~/.tmux.conf
