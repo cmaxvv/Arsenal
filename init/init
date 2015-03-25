@@ -5,6 +5,8 @@ mkdir $MY_DEVEL_BASE
 mkdir $MY_PROJ_BASE
 mkdir $MY_SRC_BASE
 mkdir $MY_REPO_BASE
+ln -sf $MY_ETC_BASE/bash/bashrc ~/.bashrc
+ln -sf $MY_ETC_BASE/bash/bash_profile ~/.bash_profile
 ln -sf $MY_ETC_BASE/vimrc ~/.vimrc
 ln -sf $MY_ETC_BASE/screenrc ~/.screenrc
 ln -sf $MY_ETC_BASE/tmux.conf ~/.tmux.conf
