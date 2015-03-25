@@ -1,6 +1,7 @@
 #!/bin/bash
 . ../etc/dprofile.conf	
 #ln -s $MY_BASE/bin/dprofile /usr/local/bin/mydprofile 
+mkdir $MY_WORKSPACE
 mkdir $MY_DEVEL_BASE
 mkdir $MY_PROJ_BASE
 mkdir $MY_SRC_BASE
