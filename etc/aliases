@@ -1,6 +1,3 @@
-source ~/Arsenal/etc/dprofile.conf
-export PATH="/usr/local/sbin:$PATH"
-export PS1='\[\e[36m\][\t]\[\e[31m\]\u@\h:\w\$\[\e[m\] '
 alias ls='ls -FG'
 alias ll='ls -lFG'
 #alias ssh-keygen='ssh-keygen -q -N "" -t rsa -b 2048 -C "cmaxvv@me.com"'

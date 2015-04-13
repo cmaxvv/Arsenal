@@ -3,7 +3,9 @@ set nocompatible
 "{{{ Tab与空格
 set ts=4 "tab stop
 set sts=4 "soft tab stop
-set smarttab
+set shiftwidth=4  "缩进为4
+"set expandtab "把所有tab都转换为space
+"set smarttab
 "}}}
 
 "{{{ 缩进
